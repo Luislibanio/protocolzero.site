@@ -26,6 +26,7 @@ body {
 }
 
 .fb-comments {
+  background: #fff !important;
   border: 1px solid #e9ebee;
   border-radius: 3px;
   padding: 0 15px;
@@ -231,10 +232,13 @@ tr {
       margin-bottom: 10px; 
       padding: 22px 44px; border-color: #ff5535; border-width: 0px; 
       border-radius: 6px; 
-      background: linear-gradient(to bottom, #ff6600 0%, #ff5535 100%); 
+      background: linear-gradient(to bottom, #4CC9F0 0%, #7209B7 100%); 
       box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5); 
       text-decoration: none!important;
     }
+    .a-btn:hover {
+      background: linear-gradient(to bottom, #3D0E61 0%, #7209B7 100%);
+     } 
     .span-btn {
       text-decoration: none;
       -webkit-font-smoothing: antialiased; 
@@ -248,13 +252,13 @@ tr {
       z-index: 1; 
       padding: 0 15px; 
       white-space: normal; 
-      font-size: 25px;
+      font-size: 21px;
       color: #ffffff; 
-      font-family: Oswald; 
       font-weight: bold; 
       text-shadow: #000000 0px 1px 0px;
       text-decoration: none;
     }
+
     .span-btn2 {
       -webkit-font-smoothing: antialiased; 
       text-align: center;
@@ -266,9 +270,6 @@ tr {
       z-index: 1; 
       margin: .2em 0 -.5em; 
       font-size: 15px; 
-      color: #f5e051; 
-      font-family: Cabin; 
+      color: #fff; 
       font-weight: bold; 
-      font-style: italic;
-      text-shadow: #000000 0px 1px 0px;
     }
