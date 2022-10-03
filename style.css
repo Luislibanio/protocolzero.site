@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+
+}
+
+body{
+  text-align: center;
+  width: 100%;
+
+}
+h1{
+  margin: 20px;
+  font-size: 25px;
+}
+
+img{
+ text-align: center;
+ border-radius: 15px; 
+ width: 100%;
+ max-width: 400px;
+}
+
+p{
+ text-align: justify; 
+ padding: 20px;
+}
+
